@@ -9,5 +9,34 @@ body{
     height: 100vh;
     width: 100%;
     margin: 0;
+    display: flex;
+    flex-direction: column;
     
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
+   
+
+}
+.logo{
+    font-size: 32px;
+    color: var(--primary-color);
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 12px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links a{
+    color: var(--secondery-color);
+}
+.nav-links a:hover{
+    color:var(--primary-color);
 }
