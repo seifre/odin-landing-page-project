@@ -40,3 +40,43 @@ a{
 .nav-links a:hover{
     color:var(--primary-color);
 }
+.hero{
+    display: flex;
+    padding: 16px;
+    justify-content: space-around;
+    
+}
+.hero .left-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    justify-content: center;
+}
+.hero .left-hero .headline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+.main-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--primary-color);
+}
+.secondery-text{
+    font-size: 18px;
+    color: var(--secondery-color);
+   
+}
+.hero .left-hero .cta-button a{
+    padding: 12px 32px;
+    background-color: var(--primary-color);
+    color: var(--secondery-color);
+    border-radius: 12px;
+ 
+}
+.hero .left-hero .cta-button a:hover{
+    background-color: var(--secondery-color);
+    color: white;
+}
