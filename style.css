@@ -43,7 +43,9 @@ a{
 .hero{
     display: flex;
     padding: 16px;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
     
 }
 .hero .left-hero{
@@ -63,10 +65,12 @@ a{
     font-size: 48px;
     font-weight: 900;
     color: var(--primary-color);
+    text-align: center;
 }
 .secondery-text{
     font-size: 18px;
     color: var(--secondery-color);
+    text-align: center;
    
 }
 .hero .left-hero .cta-button a{
@@ -79,4 +83,43 @@ a{
 .hero .left-hero .cta-button a:hover{
     background-color: var(--secondery-color);
     color: white;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin: 0;
+   background-color: var(--secondery-color);
+}
+.info ul{
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.info h1{
+    color: white;
+}
+.info img{
+    width: 150px;
+   flex-shrink: 0;
+   border-radius: 18px;
+   border: 3px solid var(--primary-color);
+
+}
+.info li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+ .undr-text{
+    flex-wrap: wrap;
+    color: white;
+    width: 150px;
+   
+    text-align: center;
 }
