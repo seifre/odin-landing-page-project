@@ -123,3 +123,21 @@ a{
    
     text-align: center;
 }
+.testimonial{
+  padding: 84px;
+  background-color:var(--primary-color);
+  
+}
+.testi{
+    display: flex;
+    flex-direction: column;
+}
+blockquote{
+    font-size: 32px;
+}
+cite{
+    align-self: flex-end;
+    font-size: 24px;
+}
+
+    
