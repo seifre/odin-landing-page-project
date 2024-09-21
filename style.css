@@ -12,6 +12,8 @@ body{
     display: flex;
     flex-direction: column;
     
+   
+    
 }
 .header{
     display: flex;
@@ -139,5 +141,47 @@ cite{
     align-self: flex-end;
     font-size: 24px;
 }
+.cta{
+  
+   display: flex;
 
+   justify-content: space-between;
+   background-color: var(--secondery-color);
+   border-radius: 16px;
+   margin: 48px 0px;
+   padding: 36px;
+   align-self: center;
+   width: 60%;
+   align-items: center;
+
+
+   
+
+}
+.cta-left{
+    display: flex;
+    flex-direction: column;
     
+}
+.cta .headline{
+    font-size: 24px;
+    color: white;
+}
+.cta .subtext{
+    color: #ff7200;
+}
+.cta a{
+    color: var(--secondery-color);
+    background-color: #ff7200;
+    padding: 12px;
+    border-radius: 20px;
+}
+.footer{
+    display: flex;
+    background-color: var(--secondery-color);
+    justify-content: center;
+   padding: 24px 0px;
+}
+.copyright{
+    color: white;
+}
